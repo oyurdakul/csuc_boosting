@@ -13,3 +13,15 @@ This online companion contains
 
 # Further details on the case studies
 In the case studies reported in the original manuscript as well as in Appendix B, we use as covariates the temperature measurements harvested from the weather stations located in each zone of the New York Control Area. Specifically, the selected weather stations are located in
+
+1. Capital
+2. Central
+3. Dunwoodie
+4. Genesee
+5. Hudson Valley
+6. Long Island
+7. Millwood
+8. Mohawk Valley
+9. North
+10. New York City
+11. West
