@@ -8,3 +8,6 @@ This is the online companion to the publication
 
 This online companion contains
 1. the two [appendices](/appendix.pdf) to the manuscript. In Appendix A, we furnish the notation and the mathematical formulation of the unit commitment problem employed in the publication. In Appendix B, we report the results of two additional case studies conduct to further assess the performance of the proposed framework
+2. source code and the simulation scripts
+a. 
+2. further details on the case studies conducted
