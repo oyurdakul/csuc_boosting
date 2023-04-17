@@ -12,7 +12,7 @@ This online companion contains
 3. Further details on the case studies conducted
 
 # Further details on the case studies
-In the case studies reported in the original manuscript as well as in Appendix B, we use as covariates the temperature measurements harvested from the weather stations located in each zone of the New York Control Area. Specifically, the selected weather stations are located in
+In the case studies reported in the original manuscript as well as in Appendix B, we use as covariates the temperature measurements harvested from the weather stations located in each zone of the New York Control Area (NYCA). Specifically, the selected weather stations are located in the following zones of the NYCA
 
 1. Capital
 2. Central
