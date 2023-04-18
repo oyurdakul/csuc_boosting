@@ -1,0 +1,46 @@
+{
+    
+    "number_of_scenarios":[3, 7, 14, 30, 61, 92],
+    "number_of_oos_scenarios":30,
+    "ml_algorithms": ["xgboost", "rf", "adaboost", "gbt"],
+    "system" : "nyiso",
+    "start_date_train" : "2018-09-01",
+    "start_date_oos" : "2019-09-01",
+    "five_min" : "False",
+    "rf": {
+        "n_estimators" : [50],
+        "Xi":[1.0, 10.0],
+        "max_depth" : [6],
+        "learning_rate" : ["NaN"],
+        "min_split_loss":["NaN"],
+        "min_samples_split":["NaN"],
+        "max_features":[0.6]
+    },
+    "xgboost": {
+        "n_estimators" : [50],
+        "Xi":[1.0, 10.0],
+        "max_depth" : [3],
+        "learning_rate" : [0.001],
+        "min_split_loss":[0.0],
+        "min_samples_split":["NaN"],
+        "max_features":[0.3]
+    },
+    "adaboost": {
+        "n_estimators" : [100],
+        "Xi":[1.0, 10.0],
+        "max_depth" : [6],
+        "learning_rate" : ["NaN"],
+        "min_split_loss":["NaN"],   
+        "min_samples_split":["NaN"],
+        "max_features":["NaN"]
+    },
+    "gbt": {
+        "n_estimators" : [100],
+        "Xi":[1.0, 4.0],
+        "max_depth" : [12],
+        "learning_rate" : ["NaN"],
+        "min_split_loss":["NaN"],   
+        "min_samples_split":[1],
+        "max_features":["NaN"]
+    }
+}
