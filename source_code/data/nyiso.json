@@ -1,0 +1,702 @@
+{
+  "SOURCE": "University of Washington, Dept. of Electrical Engineering. \"Power Systems Test Case Archive\". Available at: http://www.ee.washington.edu/research/pstca/ (Accessed: Nov 14, 2020)\n\nD. Zimmerman, C. E. Murillo-Sandnchez and R. J. Thomas. \"Matpower: Steady-state operations, planning, and analysis tools forpower systems research and education\", IEEE Transactions on PowerSystems, vol. 26, no. 1, pp. 12 \u201319, Feb. 2011. DOI: 10.1109/TPWRS.2010.2051168\n",
+  "Parameters": {
+    "Power balance penalty ($/MW)": 15000.0,
+    "FRP penalty ($/MW)": 1000.0,
+    "Time horizon (h)": 24,
+    "Time step (min)": 60,
+    "Scenario number": 1
+  },
+  "Generators": {
+    "g1": {
+      "Bus": "b1",
+      "Production cost curve (MW)": [
+        16.901100444445653,
+        94.40345818607902,
+        171.90581592771244,
+        249.40817366934598,
+        326.91053141097933
+      ],
+      "Production cost curve ($)": [
+        716.7470233305867,
+        3465.763907745978,
+        6335.568940853531,
+        9252.345705326847,
+        12232.933634581022
+      ],
+      "Startup costs ($)": [
+        20559.35,
+        24224.12,
+        28727.63
+      ],
+      "Startup delays (h)": [
+        1,
+        2,
+        4
+      ],
+      "Ramp up limit (MW)": 228.84,
+      "Ramp down limit (MW)": 228.84,
+      "Startup limit (MW)": 228.84,
+      "Shutdown limit (MW)": 228.84,
+      "Minimum uptime (h)": 1,
+      "Minimum downtime (h)": 1,
+      "Initial status (h)": 24,
+      "Initial power (MW)": 257.74170000000004
+    },
+    "g2": {
+      "Bus": "LOAD_WEST",
+      "Production cost curve (MW)": [
+        2.257203830814138,
+        33.5985679204243,
+        64.93993201003447,
+        96.28129609964463,
+        127.62266018925479
+      ],
+      "Production cost curve ($)": [
+        953.4271497797719,
+        2139.086577758979,
+        3416.0435375709003,
+        4856.980529832745,
+        6523.928912640124
+      ],
+      "Startup costs ($)": [
+        10345.29,
+        10498.58,
+        10598.13
+      ],
+      "Startup delays (h)": [
+        1,
+        2,
+        4
+      ],
+      "Ramp up limit (MW)": 89.34,
+      "Ramp down limit (MW)": 89.34,
+      "Startup limit (MW)": 89.34,
+      "Shutdown limit (MW)": 89.34,
+      "Minimum uptime (h)": 1,
+      "Minimum downtime (h)": 1,
+      "Initial status (h)": -24,
+      "Initial power (MW)": 0.0
+    },
+    "g3": {
+      "Bus": "LOAD_N.Y.C.",
+      "Production cost curve (MW)": [
+        1.619043590917833,
+        21.894126410542157,
+        42.16920923016648,
+        62.444292049790796,
+        82.71937486941513
+      ],
+      "Production cost curve ($)": [
+        685.7745024725275,
+        1403.8176490424148,
+        2365.8595550594155,
+        3786.959826482599,
+        5342.322597393779
+      ],
+      "Startup costs ($)": [
+        4382.12,
+        4505.39,
+        4595.43
+      ],
+      "Startup delays (h)": [
+        1,
+        2,
+        4
+      ],
+      "Ramp up limit (MW)": 57.9,
+      "Ramp down limit (MW)": 57.9,
+      "Startup limit (MW)": 57.9,
+      "Shutdown limit (MW)": 57.9,
+      "Minimum uptime (h)": 1,
+      "Minimum downtime (h)": 1,
+      "Initial status (h)": -24,
+      "Initial power (MW)": 0.0
+    },
+    "g4": {
+      "Bus": "LOAD_HUD VL",
+      "Production cost curve (MW)": [
+        0.8992148792351051,
+        22.275109867369967,
+        43.65100485550483,
+        65.02689984363968,
+        86.40279483177456
+      ],
+      "Production cost curve ($)": [
+        848.551414962958,
+        1594.5146442701787,
+        2520.030474640857,
+        3783.3547240156395,
+        5223.878506266689
+      ],
+      "Startup costs ($)": [
+        4274.52,
+        4497.57,
+        4827.67
+      ],
+      "Startup delays (h)": [
+        4,
+        8,
+        16
+      ],
+      "Ramp up limit (MW)": 60.48,
+      "Ramp down limit (MW)": 60.48,
+      "Startup limit (MW)": 60.48,
+      "Shutdown limit (MW)": 60.48,
+      "Minimum uptime (h)": 4,
+      "Minimum downtime (h)": 4,
+      "Initial status (h)": -24,
+      "Initial power (MW)": 0.0
+    },
+    "g5": {
+      "Bus": "b8",
+      "Production cost curve (MW)": [
+        2.326914798402042,
+        23.12161589867012,
+        43.91631699893821,
+        64.71101809920629,
+        85.50571919947436
+      ],
+      "Production cost curve ($)": [
+        645.5555905711794,
+        1395.3861251379635,
+        2312.198895304892,
+        3543.1506774466516,
+        4879.427576009033
+      ],
+      "Startup costs ($)": [
+        5998.01,
+        6356.53,
+        6821.79
+      ],
+      "Startup delays (h)": [
+        1,
+        2,
+        4
+      ],
+      "Ramp up limit (MW)": 59.85,
+      "Ramp down limit (MW)": 59.85,
+      "Startup limit (MW)": 59.85,
+      "Shutdown limit (MW)": 59.85,
+      "Minimum uptime (h)": 1,
+      "Minimum downtime (h)": 1,
+      "Initial status (h)": -24,
+      "Initial power (MW)": 0.0
+    }
+  },
+  "Transmission lines": {
+    "l1": {
+      "Source bus": "b1",
+      "Target bus": "LOAD_WEST",
+      "Reactance (ohms)": 0.05917000000000001,
+      "Susceptance (S)": 29.496860773945063,
+      "Normal flow limit (MW)": 120.0,
+      "Flow limit penalty ($/MW)": 100000
+    },
+    "l2": {
+      "Source bus": "b1",
+      "Target bus": "LOAD_DUNWOD",
+      "Reactance (ohms)": 0.22304000000000002,
+      "Susceptance (S)": 7.825184953346168,
+      "Normal flow limit (MW)": 65.0,
+      "Flow limit penalty ($/MW)": 100000
+    },
+    "l3": { 
+      "Source bus": "LOAD_WEST",
+      "Target bus": "LOAD_N.Y.C.",
+      "Reactance (ohms)": 0.19797,
+      "Susceptance (S)": 8.816129979261149,
+      "Normal flow limit (MW)": 36.0,
+      "Flow limit penalty ($/MW)": 100000
+    },
+    "l4": { 
+      "Source bus": "LOAD_WEST",
+      "Target bus": "LOAD_LONGIL",
+      "Reactance (ohms)": 0.17632,
+      "Susceptance (S)": 9.898645939169292,
+      "Normal flow limit (MW)": 65.0,
+      "Flow limit penalty ($/MW)": 100000
+    },
+    "l5": { 
+      "Source bus": "LOAD_WEST",
+      "Target bus": "LOAD_DUNWOD",
+      "Reactance (ohms)": 0.17388,
+      "Susceptance (S)": 10.037550333530765,
+      "Normal flow limit (MW)": 50.0,
+      "Flow limit penalty ($/MW)": 100000
+    },
+    "l6": { 
+      "Source bus": "LOAD_N.Y.C.",
+      "Target bus": "LOAD_LONGIL",
+      "Reactance (ohms)": 0.17103,
+      "Susceptance (S)": 10.204813494675376,
+      "Normal flow limit (MW)": 65.0,
+      "Flow limit penalty ($/MW)": 100000
+    },
+    "l7": { 
+      "Source bus": "LOAD_LONGIL",
+      "Target bus": "LOAD_DUNWOD",
+      "Reactance (ohms)": 0.04211,
+      "Susceptance (S)": 41.44690695783257,
+      "Normal flow limit (MW)": 45.0,
+      "Flow limit penalty ($/MW)": 100000
+    },
+    "l8": { 
+      "Source bus": "LOAD_LONGIL",
+      "Target bus": "b7",
+      "Reactance (ohms)": 0.20911999999999997,
+      "Susceptance (S)": 8.346065665619404,
+      "Normal flow limit (MW)": 55.0,
+      "Flow limit penalty ($/MW)": 100000
+    },
+    "l9": {
+      "Source bus": "LOAD_LONGIL",
+      "Target bus": "LOAD_CENTRL",
+      "Reactance (ohms)": 0.55618,
+      "Susceptance (S)": 3.1380654680037567,
+      "Normal flow limit (MW)": 32.0,
+      "Flow limit penalty ($/MW)": 100000
+    },
+    "l10": {
+      "Source bus": "LOAD_DUNWOD",
+      "Target bus": "LOAD_HUD VL",
+      "Reactance (ohms)": 0.25201999999999997,
+      "Susceptance (S)": 6.92536009838239,
+      "Normal flow limit (MW)": 45.0,
+      "Flow limit penalty ($/MW)": 100000
+    },
+    "l11": { 
+      "Source bus": "LOAD_HUD VL",
+      "Target bus": "LOAD_MILLWD",
+      "Reactance (ohms)": 0.1989,
+      "Susceptance (S)": 8.774908255376218,
+      "Normal flow limit (MW)": 18.0,
+      "Flow limit penalty ($/MW)": 100000
+    },
+    "l12": {
+      "Source bus": "LOAD_HUD VL",
+      "Target bus": "LOAD_NORTH",
+      "Reactance (ohms)": 0.25581,
+      "Susceptance (S)": 6.8227561549365925,
+      "Normal flow limit (MW)": 32.0,
+      "Flow limit penalty ($/MW)": 100000
+    },
+    "l13": { 
+      "Source bus": "LOAD_HUD VL",
+      "Target bus": "LOAD_GENESE",
+      "Reactance (ohms)": 0.13027,
+      "Susceptance (S)": 13.397783465067395,
+      "Normal flow limit (MW)": 32.0,
+      "Flow limit penalty ($/MW)": 100000
+    },
+    "l14": {
+      "Source bus": "b7",
+      "Target bus": "b8",
+      "Reactance (ohms)": 0.17615,
+      "Susceptance (S)": 9.908198989465395,
+      "Normal flow limit (MW)": 32.0,
+      "Flow limit penalty ($/MW)": 100000
+    },
+    "l15": {
+      "Source bus": "b7",
+      "Target bus": "LOAD_CENTRL",
+      "Reactance (ohms)": 0.11001,
+      "Susceptance (S)": 15.865187273832648,
+      "Normal flow limit (MW)": 32.0,
+      "Flow limit penalty ($/MW)": 100000
+    },
+    "l16": {
+      "Source bus": "LOAD_CENTRL",
+      "Target bus": "LOAD_MHK VL",
+      "Reactance (ohms)": 0.0845,
+      "Susceptance (S)": 20.65478404727017,
+      "Normal flow limit (MW)": 32.0,
+      "Flow limit penalty ($/MW)": 100000
+    },
+    "l17": { 
+      "Source bus": "LOAD_CENTRL",
+      "Target bus": "LOAD_CAPITL",
+      "Reactance (ohms)": 0.27038,
+      "Susceptance (S)": 6.4550974628091184,
+      "Normal flow limit (MW)": 32.0,
+      "Flow limit penalty ($/MW)": 100000
+    },
+    "l18": { 
+      "Source bus": "LOAD_MHK VL",
+      "Target bus": "LOAD_MILLWD",
+      "Reactance (ohms)": 0.19207,
+      "Susceptance (S)": 9.08694357262628,
+      "Normal flow limit (MW)": 12.0,
+      "Flow limit penalty ($/MW)": 100000
+    },
+    "l19": { 
+      "Source bus": "LOAD_NORTH",
+      "Target bus": "LOAD_GENESE",
+      "Reactance (ohms)": 0.19988,
+      "Susceptance (S)": 8.73188539120637,
+      "Normal flow limit (MW)": 12.0,
+      "Flow limit penalty ($/MW)": 100000
+    },
+    "l20": { 
+      "Source bus": "LOAD_GENESE",
+      "Target bus": "LOAD_CAPITL",
+      "Reactance (ohms)": 0.34802,
+      "Susceptance (S)": 5.0150257226433235,
+      "Normal flow limit (MW)": 12.0,
+      "Flow limit penalty ($/MW)": 100000
+    }
+  },
+  "Buses": {
+    "b1": {
+      "s1": {
+        "Load (MW)": 0,
+        "Probability":1.0
+			}
+    },
+    "LOAD_WEST": {
+      "s1": {
+        "Load (MW)": [
+          19.86661,
+          19.37086,
+          19.07416,
+          19.18088,
+          19.95517,
+          21.79439,
+          26.41818,
+          26.09575,
+          25.16327,
+          25.09591,
+          24.80526,
+          24.35795,
+          19.86661,
+          19.37086,
+          19.07416,
+          19.18088,
+          19.95517,
+          21.79439,
+          26.41818,
+          26.09575,
+          25.16327,
+          25.09591,
+          24.80526,
+          24.35795
+        ],
+      "Probability":1.0
+    }},
+    "LOAD_N.Y.C.": {
+      "s1": {
+        "Load (MW)": [
+          19.86661,
+          19.37086,
+          19.07416,
+          19.18088,
+          19.95517,
+          21.79439,
+          26.41818,
+          26.09575,
+          25.16327,
+          25.09591,
+          24.80526,
+          24.35795,
+          19.86661,
+          19.37086,
+          19.07416,
+          19.18088,
+          19.95517,
+          21.79439,
+          26.41818,
+          26.09575,
+          25.16327,
+          25.09591,
+          24.80526,
+          24.35795
+        ],
+      "Probability":1.0
+    }},
+    "LOAD_LONGIL": {
+      "s1": {
+        "Load (MW)": [
+         19.86661,
+          19.37086,
+          19.07416,
+          19.18088,
+          19.95517,
+          21.79439,
+          26.41818,
+          26.09575,
+          25.16327,
+          25.09591,
+          24.80526,
+          24.35795,
+          19.86661,
+          19.37086,
+          19.07416,
+          19.18088,
+          19.95517,
+          21.79439,
+          26.41818,
+          26.09575,
+          25.16327,
+          25.09591,
+          24.80526,
+          24.35795
+        ],
+      "Probability":1.0
+    }},
+    "LOAD_DUNWOD": {
+      "s1": {
+        "Load (MW)": [
+          19.86661,
+          19.37086,
+          19.07416,
+          19.18088,
+          19.95517,
+          21.79439,
+          26.41818,
+          26.09575,
+          25.16327,
+          25.09591,
+          24.80526,
+          24.35795,
+          19.86661,
+          19.37086,
+          19.07416,
+          19.18088,
+          19.95517,
+          21.79439,
+          26.41818,
+          26.09575,
+          25.16327,
+          25.09591,
+          24.80526,
+          24.35795
+        ],
+      "Probability":1.0
+    }},
+    "LOAD_HUD VL": {
+      "s1": {
+        "Load (MW)": [
+          19.86661,
+          19.37086,
+          19.07416,
+          19.18088,
+          19.95517,
+          21.79439,
+          26.41818,
+          26.09575,
+          25.16327,
+          25.09591,
+          24.80526,
+          24.35795,
+          19.86661,
+          19.37086,
+          19.07416,
+          19.18088,
+          19.95517,
+          21.79439,
+          26.41818,
+          26.09575,
+          25.16327,
+          25.09591,
+          24.80526,
+          24.35795
+        ],
+      "Probability":1.0
+    }},
+    "b7": {
+      "s1": {
+        "Load (MW)": 0,
+        "Probability":1.0
+			}
+    },
+    "b8": {
+      "s1": {
+        "Load (MW)": 0,
+        "Probability":1.0
+			}
+    },
+    "LOAD_CENTRL": {
+      "s1": {
+        "Load (MW)": [
+         19.86661,
+          19.37086,
+          19.07416,
+          19.18088,
+          19.95517,
+          21.79439,
+          26.41818,
+          26.09575,
+          25.16327,
+          25.09591,
+          24.80526,
+          24.35795,
+          19.86661,
+          19.37086,
+          19.07416,
+          19.18088,
+          19.95517,
+          21.79439,
+          26.41818,
+          26.09575,
+          25.16327,
+          25.09591,
+          24.80526,
+          24.35795
+        ],
+      "Probability":1.0
+    }},
+    "LOAD_MHK VL": {
+      "s1": {
+        "Load (MW)": [
+          19.86661,
+          19.37086,
+          19.07416,
+          19.18088,
+          19.95517,
+          21.79439,
+          26.41818,
+          26.09575,
+          25.16327,
+          25.09591,
+          24.80526,
+          24.35795,
+          19.86661,
+          19.37086,
+          19.07416,
+          19.18088,
+          19.95517,
+          21.79439,
+          26.41818,
+          26.09575,
+          25.16327,
+          25.09591,
+          24.80526,
+          24.35795
+        ],
+      "Probability":1.0
+    }},
+    "LOAD_MILLWD": {
+      "s1": {
+        "Load (MW)": [
+         19.86661,
+          19.37086,
+          19.07416,
+          19.18088,
+          19.95517,
+          21.79439,
+          26.41818,
+          26.09575,
+          25.16327,
+          25.09591,
+          24.80526,
+          24.35795,
+          19.86661,
+          19.37086,
+          19.07416,
+          19.18088,
+          19.95517,
+          21.79439,
+          26.41818,
+          26.09575,
+          25.16327,
+          25.09591,
+          24.80526,
+          24.35795
+        ],
+      "Probability":1.0
+    }},
+    "LOAD_NORTH": {
+      "s1": {
+        "Load (MW)": [
+         19.86661,
+          19.37086,
+          19.07416,
+          19.18088,
+          19.95517,
+          21.79439,
+          26.41818,
+          26.09575,
+          25.16327,
+          25.09591,
+          24.80526,
+          24.35795,
+          19.86661,
+          19.37086,
+          19.07416,
+          19.18088,
+          19.95517,
+          21.79439,
+          26.41818,
+          26.09575,
+          25.16327,
+          25.09591,
+          24.80526,
+          24.35795
+        ],
+      "Probability":1.0
+    }},
+    "LOAD_GENESE": {
+      "s1": {
+        "Load (MW)": [
+          19.86661,
+          19.37086,
+          19.07416,
+          19.18088,
+          19.95517,
+          21.79439,
+          26.41818,
+          26.09575,
+          25.16327,
+          25.09591,
+          24.80526,
+          24.35795,
+          19.86661,
+          19.37086,
+          19.07416,
+          19.18088,
+          19.95517,
+          21.79439,
+          26.41818,
+          26.09575,
+          25.16327,
+          25.09591,
+          24.80526,
+          24.35795
+        ],
+      "Probability":1.0
+    }},
+    "LOAD_CAPITL": {
+      "s1": {
+        "Load (MW)": [
+          19.86661,
+          19.37086,
+          19.07416,
+          19.18088,
+          19.95517,
+          21.79439,
+          26.41818,
+          26.09575,
+          25.16327,
+          25.09591,
+          24.80526,
+          24.35795,
+          19.86661,
+          19.37086,
+          19.07416,
+          19.18088,
+          19.95517,
+          21.79439,
+          26.41818,
+          26.09575,
+          25.16327,
+          25.09591,
+          24.80526,
+          24.35795
+        ],
+      "Probability":1.0
+    }}
+  },
+  "Reserves": {
+    "Spinning (MW)": 0
+  }
+}
