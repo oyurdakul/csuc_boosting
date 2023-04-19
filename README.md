@@ -32,14 +32,21 @@ In the case studies reported in the original manuscript as well as in Appendix B
 For each method and each observation in the test, we computed the resulting locational marginal prices (LMPs) as a by-product of the optimal (relaxed) UC solution. We next plot the LMPs in hour ending 0800 on September 1, 2019, obtained under each method as part of the Case Study I reported in [Appendix B](/appendix.pdf).
 
 We start with the LMPs obtained under the ideal method:
-
+**LMPs under IUC:**
 ![ideal](/figs/ideal_time_7.png)
 
 We observe that the LMPs attain relatively similar values, suggesting that the system does not experience congestion at this hour. We next turn to the LMPs under the proposed methods, i.e., ab-wCSUC, gbt-wCSUC, xgb-wCSUC, as well as the rf-wCSUC method.
 
+**LMPs under ab-wCSUC:**
 ![ab_w](/figs/weighted_ab_time_7.png)
+
+**LMPs under gbt-wCSUC:**
 ![gbt_w](/figs/weighted_gbt_time_7.png)
+
+**LMPs under xgb-wCSUC:**
 ![xgb_w](/figs/weighted_xgb_time_7.png)
+
+**LMPs under rf-wCSUC:**
 ![rf_w](/figs/weighted_rf_time_7.png)
 
 Note that the proposed method manages to stave off congestion, delivering moderate LMPs over hour ending 0800.
