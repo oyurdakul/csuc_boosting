@@ -52,5 +52,23 @@ LMPs under $rf$-wCSUC:
 
 Note that the proposed method manages to stave off congestion, delivering moderate LMPs over hour ending 0800.
 
-We next turn to the point-f
+We next turn to the point forecast-based methods.
+
+LMPs under $ab$-pfCSUC:
+![ab_w](/figs/point_ab_time_7.png)
+
+LMPs under $gbt$-pfCSUC:
+![gbt_w](/figs/point_gbt_time_7.png)
+
+LMPs under $xgb$-pfCSUC:
+![xgb_w](/figs/point_xgb_time_7.png)
+
+LMPs under $rf$-pfCSUC:
+![rf_w](/figs/point_rf_time_7.png)
+
+Among the LMPs plot obtained using the point forecast-based methods, we remark upon the extreme price spikes under $xgb$-pfCSUC and $rf$-pfCSUC, which point to involuntary load shedding. Finally, we depict the LMPs obtained using the NSUC method.
+
+LMPs under NSUC:
+![rf_w](/figs/naive_time_7.png)
+
 
