@@ -64,7 +64,7 @@ LMPs under $xgb$-pfCSUC:
 ![xgb_w](/figs/point_xgb_time_7.png)
 
 LMPs under $rf$-pfCSUC:
-![rf_w](/figs/poin_rf_time_7.png)
+![rf_w](/figs/point_rf_time_7.png)
 
 Among the LMPs plot obtained using the point forecast-based methods, we remark upon the extreme price spikes under $xgb$-pfCSUC and $rf$-pfCSUC, which point to involuntary load shedding. Finally, we depict the LMPs obtained using the NSUC method.
 
