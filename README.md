@@ -71,4 +71,3 @@ Among the LMPs plot obtained using the point forecast-based methods, we remark u
 LMPs under NSUC:
 ![rf_w](/figs/naive_time_7.png)
 
-
